@@ -1,9 +1,11 @@
-
-
+import "./App.css";
+function Hello () {
+  return <div>123123</div>
+}
 function App() {
   return (
-    <div className="App">
-     123
+    <div>
+      <Hello></Hello>
     </div>
   );
 }
